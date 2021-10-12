@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Receive_Damage.unity
+  isLoaded: 1
+  isActive: 1
