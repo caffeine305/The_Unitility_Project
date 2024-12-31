@@ -381,7 +381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &778106567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1028,12 +1028,12 @@ PrefabInstance:
     - target: {fileID: 1581851445967932448, guid: aa25df89716061545ae260d352a1a02c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: -8.41
       objectReference: {fileID: 0}
     - target: {fileID: 1581851445967932448, guid: aa25df89716061545ae260d352a1a02c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 1581851445967932448, guid: aa25df89716061545ae260d352a1a02c,
         type: 3}
@@ -1075,10 +1075,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1581851445967932449, guid: aa25df89716061545ae260d352a1a02c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581851445967932451, guid: aa25df89716061545ae260d352a1a02c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 816022141, guid: 8d0616f909f69674399e986cd73dd05b,
+        type: 3}
     - target: {fileID: 1581851445967932453, guid: aa25df89716061545ae260d352a1a02c,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581851445967932462, guid: aa25df89716061545ae260d352a1a02c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940035592489871762, guid: aa25df89716061545ae260d352a1a02c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940035592489871762, guid: aa25df89716061545ae260d352a1a02c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940035592489871762, guid: aa25df89716061545ae260d352a1a02c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7817389171844137991, guid: aa25df89716061545ae260d352a1a02c,
         type: 3}
