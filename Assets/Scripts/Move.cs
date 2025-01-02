@@ -79,6 +79,14 @@ public class Move : MonoBehaviour
     if (!isGrounded)
     {
         velocity.y += gravity * Time.deltaTime;
+        if(Input.GetButton("Fire2"))
+        {
+            isKicking = true;
+        }
+        else
+        {
+            isKicking = false;
+        }
     }
 
     // Aplica el movimiento vertical al personaje
